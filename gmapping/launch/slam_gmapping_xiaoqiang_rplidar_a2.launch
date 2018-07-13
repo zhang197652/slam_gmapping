@@ -3,7 +3,7 @@
     <include file="$(find rplidar_ros)/launch/rplidar.launch" />
     <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
       <param name="map_update_interval" value="1.0"/>
-      <param name="maxUrange" value="8.0"/>
+      <param name="maxUrange" value="16.0"/>
       <param name="sigma" value="0.05"/>
       <param name="kernelSize" value="1"/>
       <param name="lstep" value="0.05"/>
